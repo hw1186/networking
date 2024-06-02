@@ -8,7 +8,7 @@ def get_active_interface():
     for iface in interfaces:
         if ni.AF_INET in ni.ifaddresses(iface):
             iface_info = ni.ifaddresses(iface)[ni.AF_INET][0]
-            if 'addr' in iface_info and iface_info['addr'].startswith('192.168.0'):
+            if 'addr' in iface_info and iface_info['addr'].startswith('192.168.1'):
                 return iface, iface_info['addr'], iface_info['netmask']
 
 def get_gateway_ip():

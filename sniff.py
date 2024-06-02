@@ -54,5 +54,3 @@ if __name__ == '__main__':
         exit()
     target_ip = sys.argv[1]
     sniff_packets(target_ip)
-
-# python sniff.py 192.168.0.15

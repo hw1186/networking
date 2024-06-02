@@ -100,4 +100,5 @@ if __name__ == '__main__':
     main(gatewayIP, victimIP)
 
 # sudo python3 arp_sniff.py 192.168.0.15 192.168.0.1
-# python sniff.py 192.168.0.15 192.168.0.1
+
+
